@@ -48,3 +48,10 @@ Go to /config/default.json and change the configuration file.
   }
 }
 ```
+
+## Use:
+Run this command.
+
+```sh
+npm start
+```
