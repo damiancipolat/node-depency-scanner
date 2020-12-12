@@ -1,4 +1,4 @@
-# Node.js dependecy scanner
+# :robot: Node.js dependecy scanner :alien:
 A simple tool to manage a private npm registry, to be used into development teams,t his tool uses nodejs consuming GITLAB api.
 
 # Use case:
