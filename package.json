@@ -1,0 +1,19 @@
+{
+  "name": "dependency-scanner",
+  "version": "1.0.0",
+  "description": "A tool to scan dependencies between common repositorie and the other repositories",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.3",
+    "node-fetch": "^2.6.1",
+    "treeify": "^1.1.0"
+  },
+  "bin": {
+    "pkg-scan": "./main.js"
+  }
+}

@@ -1,0 +1,15 @@
+{
+	"access":{
+		"host":  "https://gitlab.com/api/v4",
+		"token": "xxxxxxxxxxxxxxxxxx"
+  },
+  "packages":"common",
+  "destination":[
+    "mock-service"
+  ],
+  "compareBranch":"develop",
+  "origin":{
+		"source":"group",
+		"name":"your-group-name"
+  }
+}
