@@ -30,7 +30,7 @@ The command output will draw a tree with the dependency relation.
 ## Configuration:
 Go to /config/default.json and change the configuration file.
 
-```json
+```sh
 {
 	"access":{
 		"host":  "https://gitlab.com/api/v4",
