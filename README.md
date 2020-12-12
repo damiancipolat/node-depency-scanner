@@ -30,21 +30,21 @@ The command output will draw a tree with the dependency relation.
 ## Configuration:
 Go to /config/default.json and change the configuration file.
 
-```sh
+```json
 {
 	"access":{
 		"host":  "https://gitlab.com/api/v4",
-		"token": "xxxxxxx" <----- your gitlab personal token
+		"token": "xxxxxxx" 
   },
   "packages":"common",
-  "destination":[ <--- repositorys to scan
+  "destination":[
     "bff-service",
     "home-service"
   ],
-  "compareBranch":"develop", <--- The scanner use only a branch to compare the package.json
+  "compareBranch":"develop",
   "origin":{
 		"source":"group",
-		"name":"damian" <---- your group name
+		"name":"damian"
   }
 }
 ```
